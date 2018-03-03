@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<title>鱼游戏。。。</title>
+	<style type="text/css">
+		.all_bg {
+			width: 800px;
+			height: 600px;
+			margin: 0 auto;
+		}
+		#allcanvas {
+			position: relative;
+			width: 800px;
+			height: 600px;
+			margin: 0px;
+		}
+		#canvas1 {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 1;
+		}
+		#canvas2 {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 0;
+		}
+		.mp3 {
+			width: 300px;
+			margin: 0 auto;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="all_bg">
+		<div id="allcanvas">
+			<canvas id="canvas1" width="800" height="600"></canvas>
+			<canvas id="canvas2" width="800" height="600"></canvas>
+		</div>
+	</div>
+	<div class="mp3">
+		<audio src="./images/园游会_周杰伦.mp3" controls="controls" loop="loop"></audio>
+	</div>
+	<script type="text/javascript" src="./js/commonFunctions.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+	<script type="text/javascript" src="./js/background.js"></script>
+	<script type="text/javascript" src="./js/ane.js"></script>
+	<script type="text/javascript" src="./js/fruit.js"></script>
+	<script type="text/javascript" src="./js/mom.js"></script>
+	<script type="text/javascript" src="./js/baby.js"></script>
+	<script type="text/javascript" src="./js/collision.js"></script>
+	<script type="text/javascript" src="./js/data.js"></script>
+	<script type="text/javascript" src="./js/wave.js"></script>
+	<script type="text/javascript" src="./js/halo.js"></script>
+	<script type="text/javascript" src="./js/dust.js"></script>
+</body>
+</html>
